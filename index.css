@@ -1,0 +1,326 @@
+/*Inicio*/
+
+*{
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/*Body*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#Home span{
+    color: #0DF205;
+}
+
+span{
+    color: gold;
+}
+
+/*Nav*/
+
+nav{
+    display: flex;
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/5592418-vector-fundo-abstrato-tecnologia-comunicacao-conceito-ciber-circulo-laser-figura-em-abstrato-fundo-cor-azul-vetor.jpg'); 
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    padding: 15px;
+    width: auto;
+    
+}
+
+nav h1{
+    display: flex;
+    float: inline-start;
+    margin-right: 220px;
+}
+    
+
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-ev;
+    width: 100%;
+}
+
+a{
+   text-decoration: none;
+   margin: 10px;
+   justify-content: space-evenly;
+   float: right;
+   font-weight: bolder;
+   font-size: larger;
+   transition: 5s;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: wavy;
+    transition: 1s;
+}
+
+
+
+
+
+/*Home*/
+
+#Home{
+    background-color: rgb(94, 129, 160);
+    display: flex;
+    padding: 200px;
+    background-size: cover;
+    justify-content: space-between;
+}
+
+.texto1{
+    position: relative;
+    flex-direction: column;
+    font-size: larger;
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px #000000;
+    float: left;
+    max-width: 100%;
+    padding-top: 60px;
+    
+}
+
+.texto1 h1{
+    font-size: 50px;
+
+}
+
+.imagem{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.imagem img{
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-radius: 100%;
+
+}
+
+
+/*Sobre mim*/
+
+#Sobre{
+    display: flex;
+    align-items: center;
+    background-color: #171717;
+    background-size: cover;
+    
+    
+}
+
+.texto2{
+    position: relative;
+    color: white;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.texto2 h1{
+    margin: 30px;
+    font-size: 80px;
+}
+
+.texto2 h2{
+    margin: 15px;
+}
+
+.linha{
+    display: inline-block;
+}
+    
+
+.imagensS{
+    background-color: rgb(0, 0, 0);
+    border: gold;
+    border-radius: 5px;
+    text-align: center;
+    color: gold;
+    font-weight: bolder;
+    margin: 30px;
+    border-width: auto;
+    
+}
+
+.imagensS img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.imagensS p{
+    padding: 8px;
+}
+
+#Canva{
+    height: 150px;
+}
+
+/*Serviços*/
+
+#Serviços{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+#texto3{
+    margin-left: 100px;
+    color: white;
+}
+
+#texto3 h1{
+    margin: 35px;
+    font-size: 80px;
+}
+#texto3 h2{
+    margin: 15px;
+}
+
+
+.imagens2{
+    background-color: darkblue;
+    border: gold;
+    border-radius: 5px;
+    text-align: center;
+    color: gold;
+    font-weight: bolder;
+    margin: 100px;
+    border-width: auto;
+}
+
+.imagens2 img{
+    width: 190px;
+    height: 190px;
+}
+
+/*Contatos*/
+
+#Contatos{
+    background-color: #171717;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 95px;
+    background-size: cover;
+}
+
+.texto4{
+    text-align: center;
+    margin-bottom: 70px;
+    color: white;
+}
+
+.texto4 h1{
+    margin: 20px;
+    font-size: 80px;
+
+}
+
+.texto4{
+    margin: 15px;
+
+}
+.imagens{
+    margin: 100px;
+    justify-content: space-around;
+    justify-content: space-between;
+    
+}
+
+.imagens:hover img{
+    border: gold;
+    box-shadow: inset;
+    background-color: gold;
+    transition: 1s;
+}
+
+.i{
+    width: 170px;
+    height: 170px;
+    
+}
+
+#Instagram{
+    background-color: #F2F2F2;
+    border: #7E3DC9;
+    text-align: center;
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+#Instagram p {
+    background-color: #7E3DC9;
+    background-size: auto;
+    background-size: 1000px;
+    font-size: 35px;
+}
+
+#Whatsapp{
+    background-color:#F2F2F2;
+    border: #4ABF2A;
+    text-align: center;
+    color: #F2F2F2;
+    font-weight: bolder;
+}
+
+#Whatsapp p{
+    background-color: #29D967;
+    font-size: 35px;
+}
+
+#Email{
+    background-color: #F2F2F2;
+    border: #F23838;
+    text-align: center;
+    color: #F2A007;
+    font-weight: bolder;
+}
+
+#Email p{
+    background-color: #F23838;
+    font-size: 35px;
+}
+
+#LinkedIn{
+    background-color: #F2F2F2;
+    border: #2BA8D9;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+#LinkedIn p{
+    background-color: #2BA8D9;
+    font-size: 35px;
+
+}
+
+/*Rodapé*/
+
+footer{
+    background-color: #000000;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+/*Fim*/
