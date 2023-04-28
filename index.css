@@ -27,6 +27,7 @@ span{
 /*Nav*/
 
 nav{
+    position: fixed;
     display: flex;
     background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/5592418-vector-fundo-abstrato-tecnologia-comunicacao-conceito-ciber-circulo-laser-figura-em-abstrato-fundo-cor-azul-vetor.jpg'); 
     background-repeat: no-repeat;
@@ -83,7 +84,6 @@ a:hover {
 }
 
 .texto1{
-    position: relative;
     flex-direction: column;
     font-size: larger;
     margin-top: 10px;
@@ -128,7 +128,6 @@ a:hover {
 }
 
 .texto2{
-    position: relative;
     color: white;
     margin-left: 50px;
     margin-top: 0;
